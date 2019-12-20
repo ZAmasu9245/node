@@ -180,7 +180,7 @@ URLs with drive letters convert to local absolute paths. `file:` URLs without a
 hostname nor a drive letter will result in a throw:
 
 ```js
-// On Windows :
+// On Windows 
 
 // - WHATWG file URLs with hostname convert to UNC path
 // file://hostname/p/a/t/h/file => \\hostname\p\a\t\h\file
